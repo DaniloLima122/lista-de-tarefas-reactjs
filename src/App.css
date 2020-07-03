@@ -1,0 +1,155 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #fff;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App > div{
+    box-shadow: 0 5px 10px #ddd;
+    width: 300px;
+    padding: 15px 13px;
+    margin: 10% auto;
+    background: #fff;
+}
+
+.App div header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.App div header h3{
+    
+    color: gray;
+}
+
+.App div header label{
+
+    color: rgb(72, 117, 255);
+    font-size: 11px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+div label.placeholder{
+    color: #888;
+    font-size: 12px;
+}
+
+.App div > input,button{
+
+    padding: 5px;
+}
+
+.App div input{
+    color: gray;
+    width: 85%;
+    border: 1px solid #ddd;
+    transition:  .5s;
+}
+
+.App div input:focus{
+
+    border-color: rgb(153, 179, 255);
+    box-shadow: 0 0 2px rgb(153, 179, 255);
+}
+
+.App div > button{
+    border: 1px solid rgb(19, 108, 168);
+    background: rgb(19, 108, 168);
+    margin: 2px;
+    color: #ffffff;
+    transition: .5s;
+}
+
+.App div > button:hover{
+    
+    transform: scale(1.05);
+
+}
+
+.App #container__lista{
+    
+    height: 140px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+
+#container__lista::-webkit-scrollbar {
+    width: 2px;
+    cursor: pointer;
+}
+
+#container__lista::-webkit-scrollbar-track {
+    background: none; 
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background: #aaa; 
+  }
+  
+ 
+.App .lista .lista__item{
+   
+   list-style: none;
+   background: #eee;
+   width: 270px;
+   padding: 4px 5px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   transform: translateX(-40px);
+   margin: 10px 15px 10px 0;
+   color: rgb(124, 124, 124);
+   box-shadow: 0 2px 3px #ccc;
+   cursor: context-menu;
+   transition: 1s;
+}
+
+.App .lista .lista__item button{
+
+    border: none;
+    font-weight: bolder;
+    color: red;
+    transition: .5s;
+}
+
+.App .lista .lista__item button:hover{
+    color: rgb(255, 95, 95);
+}
+
+.escondecampo{
+
+    display: none;
+    opacity: 0;
+}
+
+.preenchercampo{
+
+    background: rgb(255, 168, 168);
+    border: 1px solid rgb(255, 96, 96);
+    padding: 10px 5px;
+    width: 99%;
+    display: block;
+    opacity: 1;
+    color: rgb(255, 42, 42);
+    font-size: 11px;
+    font-weight: 550;
+    border-radius: 2px;
+}
