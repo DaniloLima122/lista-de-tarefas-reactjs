@@ -14,7 +14,7 @@
 
 Para explorar o projeto na sua máquina primeiro certifique-se que você tem o Git e o Node.JS instalado.
 
-1º- Com o git pré-instalado clone no projeto:
+1º- Com o git pré-instalado clone o projeto:
 
 ~~~shell
 git clone https://github.com/DaniloLima122/lista-de-tarefas-reactjs.git
@@ -46,6 +46,6 @@ Fique a vontade para avaliar dando uma "star" ou contribuir com o projeto e repo
 - Instalação do [Node.js](https://nodejs.org/en/download/) 
 
 ## Licença
-- MIT
+- [MIT](LICENCE)
 
 
