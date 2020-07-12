@@ -27,7 +27,7 @@ git clone https://github.com/DaniloLima122/lista-de-tarefas-reactjs.git
 npm install
 ~~~
 
-4º - Abra a pasta que você clonou no seu editor de preferência:
+4º - Abra a pasta que você clonou no seu editor de preferência
 
 5º - Agora é só abrir o projeto no seu navegador digitando no seu terminal:
 ~~~shell
