@@ -20,7 +20,7 @@ Para explorar o projeto na sua máquina primeiro certifique-se que você tem o G
 git clone https://github.com/DaniloLima122/lista-de-tarefas-reactjs.git
 ~~~
 
-2º - Navegue até o diretório da pasta que você clocou no passo anterior.
+2º - Navegue até o diretório da pasta que você clonou no passo anterior.
 
 3º - Instale as dependências do projeto digitando o seguinte:
 ~~~shell
